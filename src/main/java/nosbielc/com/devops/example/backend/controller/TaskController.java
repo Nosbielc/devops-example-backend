@@ -16,7 +16,7 @@ import java.util.List;
  * @project devops-example-backend
  */
 @RestController
-@RequestMapping(value ="/todo")
+@RequestMapping("/todo")
 public class TaskController {
 
     private TaskRepo todoRepo;
