@@ -21,7 +21,7 @@ import static org.junit.Assert.*;
  * @author Cleibson Gomes (https://github.com/Nosbielc) ON 23/05/2020
  * @project devops-example-backend
  */
-public class TaskControllerTest {
+public class TaskControllerTests {
 
     @Mock
     private TaskRepo taskRepo;

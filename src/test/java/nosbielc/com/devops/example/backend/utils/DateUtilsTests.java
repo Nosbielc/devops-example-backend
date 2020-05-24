@@ -13,7 +13,7 @@ import java.time.LocalDate;
  * @author Cleibson Gomes (https://github.com/Nosbielc) ON 23/05/2020
  * @project devops-example-backend
  */
-public class DateUtilsTest {
+public class DateUtilsTests {
 
     @Before
     public void setUp() throws Exception {
