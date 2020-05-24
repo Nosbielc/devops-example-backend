@@ -3,7 +3,6 @@ package nosbielc.com.devops.example.backend.controller;
 import nosbielc.com.devops.example.backend.model.Task;
 import nosbielc.com.devops.example.backend.repository.TaskRepo;
 import nosbielc.com.devops.example.backend.utils.ValidationException;
-import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
@@ -11,11 +10,8 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.MockitoAnnotations;
-import org.springframework.boot.test.mock.mockito.MockBean;
 
 import java.time.LocalDate;
-
-import static org.junit.Assert.*;
 
 /**
  * @author Cleibson Gomes (https://github.com/Nosbielc) ON 23/05/2020
